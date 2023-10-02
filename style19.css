@@ -1,0 +1,99 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+
+body{
+    font-family: Roboto;
+}
+#cabeca{
+    display: grid;
+    grid-template-columns: 9% 1fr 6% 6% 6% 6% 8%;
+    text-align: center;
+}
+#login{
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+#login a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.c2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.c4{
+    display: grid;
+    grid-template-columns: 10% 40% 5% 45%;
+}
+.black-buttom{
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+.center{
+    text-align: center;
+}
+.high{
+    text-transform: uppercase;
+}
+.negrito{
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    padding: 15px;
+    color: black;
+}
+.small{
+    font-size: x-small;
+}
+.menor{
+    font-size: xx-small;
+}
+.gray{
+    background-color: #333333;
+    color: white;
+}
+.gray-clean{
+    background-color: #F2F2F2;
+}
+.ex{
+    padding: 100px;
+}
+.black{
+    color: white;
+    background-color: black;
+    padding: 50px;
+}
+.black a{
+    color: white;
+    font-size: x-small;
+}
+.black span{
+    font-size: x-small;
+}
+.marginal{
+    gap: 30px;
+}
+#linhav{
+    height: 200px;
+    border-right: 2px solid lightgray;
+}
+.cinza{
+    padding: auto;
+}
+.newc2{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 100px;
+}
+/*p{
+    vertical-align: auto;
+}*/
+.sal{
+    padding: 40px;
+}
